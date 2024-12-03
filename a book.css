@@ -1,0 +1,59 @@
+        /* Basic reset */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set up the full-page background with a warm color */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4e1d2; /* Soft parchment beige color */
+            background-image: url('https://example.com/book-shelves.jpg'); /* Replace with your book shelf image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #4f4f4f; /* Text color */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Content box with soft background */
+        .content-wrapper {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent light background for readability */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Title styling for a bookish feel */
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #6D4C41; /* Rich brown color */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Poem text with clear, easy-to-read font */
+        .poem-text {
+            font-size: 1.5em;
+            color: #3e2723; /* Dark brown for the text */
+            font-style: italic;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        /* Styling for the footer with the author's name */
+        .footer {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #795548; /* Subtle brown color */
+        }
